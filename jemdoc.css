@@ -2,20 +2,38 @@
 
 table#tlayout {
 	border: none;
-	border-collapse: separate;
+	border-collapse: collapse;
 	background: white;
+	height:100vh;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding:0px;
 }
 
 body {
-	background: white;
+	color:#444; 
+	line-height:1.6;
 	font-family: Georgia, serif;
-	padding-bottom: 8px;
-	margin: 0;
+	padding-bottom: 0px;
+	margin:0px;
+}
+
+a:link{
+	color:#0077aa
+}
+a:visited{
+	color:#b10dc9
+}
+
+tbody{
+	margin:0px;
+	padding: 0px;
 }
 
 #layout-menu {
 	background: #f6f6f6;
-	border: 1px solid #dddddd;
+	border: none;
+	border-right: 2px solid #cccccc;
 	padding-top: 0.5em;
 	padding-left: 8px;
 	padding-right: 8px;
@@ -24,6 +42,10 @@ body {
 	white-space: nowrap;
 	text-align: left;
 	vertical-align: top;
+	min-height: 100vh;
+	margin-top:0px;
+	margin-bottom:0px;
+
 }
 
 #layout-menu td {
@@ -119,7 +141,7 @@ strong {
 
 
 h1, h2, h3 {
-	color: #527bbd;
+	color: #333;
 	margin-top: 0.7em;
 	margin-bottom: 0.3em;
 	padding-bottom: 0.2em;
@@ -150,7 +172,7 @@ p {
 	margin-top: 0.0em;
 	margin-bottom: 0.8em;
 	padding: 0;
-	line-height: 1.3;
+	line-height: 1.6;
 }
 
 pre {
@@ -370,3 +392,12 @@ table.imgtable, table.imgtable td {
 	border: none;
 	text-align: left;
 }
+
+a:link{
+	color:#0077aa
+}
+a:visited{
+	color:#b10dc9
+}
+
+
